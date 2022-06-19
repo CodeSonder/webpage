@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+/* all */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    font-family: 'work-sans', sans-serif;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+
+/* end all */
+
+/* navbar menu */
+.wrapper{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rgba(11, 11, 13, 0.7);
+    backdrop-filter: blur(13px);
+}
+
+
+.navbar{
+    position: center;
+    color: #fff;
+    padding: 0 20px;
+    height: 50px;
+}
+.logo{
+    line-height: 40px;
+    margin-top:10px;
+    margin-left: 25px;
+    float: left;
+    text-transform: uppercase;
+    transform: scale(1.5);
+
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+
+}
+.menu {
+    float: right;
+    line-height: 50px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 14px;
+}
+main{
+    padding: 100px;
+}
+.section img {
+    max-width: 100%;
+    height: auto;
+}
+.section {
+    color: #fff;
+}
+/* end navbar header */
+
+
+
+/* product blueprint */
+body.maincontent {
+    text-align: center;
+    
+}
+h2 {
+    padding: 0;
+    padding-bottom: 0;
+    margin: 0;
+    margin-top: 10px;
+    font-size: 26px;
+    font-weight: 400;
+}
+h1 {
+    margin: 0;
+    padding-top: 0;
+    font-weight: 550;
+    font-size: 250%;
+}
+h3 {
+    margin-top: 20px;
+}
+h4 {
+    margin-top: 15px;
+    display: inline;
+    padding-right: 30px;
+    font-size: 20px;
+    font-weight: 100;
+    color:#477fe7;
+    
+}
+h4 a {
+    color:#477fe7;
+    ;
+}
+
+/* end product blueprint */
+
+/*iphone 13 pro section */
+.iphone13proname {
+    font-size: 250%
+}
+/* end iphone 13 pro section */
+
+/* macbook pro & ipad air background */
+.blackbackground {
+    background-color: black;
+}
+.whitetext {
+    color:#fff;
+}
+
+/* end macbook pr & air background */
+
+/* macbook pro section */
+.macbookprosection {
+    padding: 60px;
+}
+.macbookproname {
+    font-size: 250%;
+}
+.macbookprocpu {
+    padding-top: 5px;
+}
+.macbookprorelease {
+    font-size: 20px;
+    font-weight: 100;
+    color: grey;
+    margin-bottom: 14px;
+}
+
+/* end macbook pro section */ 
+
+/* ipad air section */
+.ipadairsection {
+    padding: 60px;
+}
+.ipadairname {
+    font-size: 250%;
+}
+.ipadairsubtitle {
+    font-size: 250%;
+    font-weight: 100;
+}
+
+/* end ipad air section */
+.airpodsmaxsection {
+    padding: 60px;
+}
+.airpodsmaxname {
+    font-size: 250%;
+}
+.airpodsmaxsubtitle {
+    font-size: 200%;
+    font-weight: 100;
+}
+.airpodsmaximage {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#rcorners {
+    border-radius: 25px;
+    background-color: #477fe7;
+    padding: 14px;
+    width: 200px;
+    height: 150px;
+    
+}
+h4.buyairpodsmax a {
+    color: #fff;
+}
+h4#rcorners.buyairpodsmax {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+/* airpods max section */
+
+/* end airpods max section */
+
+/* footer */
+.customHr {
+    width: 95%
+    font-size: 1px;
+    color: rgba(0, 0, 0, 0);
+    line-height: 1px;
+
+    background-color: grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.fineprint {
+    width: 95%;
+    text-align: center;
+    padding: 30px;
+}
+/* end footer */
