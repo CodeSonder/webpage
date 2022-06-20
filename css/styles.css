@@ -214,13 +214,12 @@ img.applewatchlogo {
 /* end apple watch section */
 
 /* apple card section */
+.applecardsub
 .applecardsection {
     width: 50=9%;
     padding-bottom: 50px;
 }
-img.applecardimage {
-    margin-top: 20px;
-}
+
 /* end apple card section */
 
 
