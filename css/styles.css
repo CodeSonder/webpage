@@ -159,6 +159,8 @@ h4 a {
 }
 
 /* end ipad air section */
+
+/* airpods max section */
 .airpodsmaxsection {
     padding: 60px;
 }
@@ -188,9 +190,43 @@ h4#rcorners.buyairpodsmax {
     padding-left: 25px;
     padding-right: 25px;
 }
-/* airpods max section */
-
 /* end airpods max section */
+
+/*watchcard section */
+.applewatchcard {
+    width: 100%;
+    background-color: rgb(250, 249, 249);
+    padding-bottom: 50px;
+}
+/* end watchcard section */
+/* apple watch section */
+img.applewatchlogo {
+    margin-top: ;
+}
+
+.applewatchsection {
+    width: 50%;
+    margin: 0;
+    margin-right: 0;
+    float: left;
+}
+
+/* end apple watch section */
+
+/* apple card section */
+.applecardsection {
+    width: 50=9%;
+    padding-bottom: 50px;
+}
+img.applecardimage {
+    margin-top: 20px;
+}
+/* end apple card section */
+
+
+
+
+
 
 /* footer */
 .customHr {
@@ -209,3 +245,32 @@ h4#rcorners.buyairpodsmax {
     padding: 30px;
 }
 /* end footer */
+
+/* media query selector */
+
+ /* Media Query for Mobile Devices */
+ @media (max-width: 480px) {
+   
+}
+  
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+   
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+   
+}
+  
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+   
+}
+  
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+   
+}
+/* end media query selector */
+
